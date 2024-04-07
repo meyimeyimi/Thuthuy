@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{
+	margin: 0
+}
+.header{
+	width: 100%; height: 100px; background-color: white; padding-right: 200px; padding-top: 40px
+}
+.logo{
+	float: left; width: 40px; height: auto
+}
+.menu{
+	float: right; 
+}
+.menu a{
+	padding: 50px; text-decoration: none; color: gray
+}
+.menu a:hover{
+	color: #511011
+}
+.gach-chan{
+	border-bottom: 2px solid #511011
+}
+.text-do{
+	color: #511011
+}
+.vien{
+	width: 100%; border: 1px solid #511011; padding: 10px; position: relative; overflow: hidden
+}
+.icon{
+	position: absolute; width: 80%; height: 40px; left: 10%; top: -15%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	width: 40px; height: 40px; background-color: #F5E8E8; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: darkred
+}
+.icon a:hover{
+	background-color: #511011; color: white
+}
+.vien:hover .icon{
+	top: 30%
+}
+header{
+	width: 100%; height: 60px; background-color: #c1c1c1
+}
+.banner{
+	width: 100%; min-height: 400px; background-color: antiquewhite
+}
+#header{
+	width: 100%; min-height: 600px; background-image: url("dethi-furniture/images/Banner1.png"); background-repeat: no-repeat; background-size: cover; background-position: center
+}
+main{
+	width: 100%; min-height: 500px
+}
+.insert{
+	width: 100%; min-height: 300px; padding: 10px
+}
+.pt{
+	padding-top: 30px
+}
+.vien-trang{
+	width: 100%;min-height: 100px;border: 1px solid #F5E8E8; padding: 15px
+}
+#feature a{
+	text-decoration: none; color: #511011
+}
+#feature a:hover{
+	color: #000000
+}
+#contact{
+	width: 100%; min-height: 600px; background-image: url("dethi-furniture/images/Banner-shop.png"); background-repeat: no-repeat; background-size: cover;background-position: center
+}
+.shadow{
+	border: 1px solid gray; width: 100%; min-height: 300px; box-shadow: 5px 5px 5px gray; padding: 30px
+}
+.form-control{
+	padding: 8px; width:100%; margin-bottom: 10px
+}
